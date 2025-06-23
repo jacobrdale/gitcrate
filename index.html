@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="GitCrate — An open-source, modern JavaScript package manager alternative to NPM."/>
+  <title>GitCrate | Open-Source NPM Alternative</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #121212;
+      color: #eee;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      padding: 1rem 2rem;
+      background: #1f1f1f;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      color: #5eead4;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: #ddd;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      color: #5eead4;
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    main h2 {
+      color: #5eead4;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1f1f1f;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    code {
+      background: #1f1f1f;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      color: #5eead4;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    a.button {
+      display: inline-block;
+      background: #5eead4;
+      color: #121212;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+    a.button:hover {
+      background: #4ed8c2;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GitCrate</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#install">Install</a>
+      <a href="#usage">Usage</a>
+      <a href="https://github.com/gitcrate/gitcrate" target="_blank">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About GitCrate</h2>
+      <p><strong>GitCrate</strong> is a fast, open-source, community-driven alternative to NPM for managing JavaScript packages.</p>
+      <p>Designed for developers who want simplicity, transparency, and a modern dependency management experience built for today’s open web projects.</p>
+      <h3>Why GitCrate?</h3>
+      <ul>
+        <li>No account required — uses your GitHub by default</li>
+        <li>Decentralized package publishing (no central registry)</li>
+        <li>Fast, lightweight CLI</li>
+        <li>Open, readable <code>crate.json</code> config files</li>
+        <li>Free forever, open-source under the Stetup license</li>
+      </ul>
+    </section>
+
+    <section id="install">
+      <h2>Install GitCrate</h2>
+      <p>Install globally via NPM:</p>
+      <pre><code>npm install -g gitcrate</code></pre>
+    </section>
+
+    <section id="usage">
+      <h2>Basic Usage</h2>
+      <p>Initialize a new project:</p>
+      <pre><code>git init</code></pre>
+      <p>Add a package:</p>
+      <pre><code>gcr add [package name]</code></pre>
+      <p>Install dependencies:</p>
+      <pre><code>gcr install</code></pre>
+
+      <a href="https://github.com/gitcrate/gitcrate" class="button" target="_blank">View on GitHub</a>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 GitCrate Project — An Open-Source NPM Alternative. Licensed under the Stetup License.
+  </footer>
+</body>
+</html>
