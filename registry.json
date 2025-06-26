@@ -1,0 +1,92 @@
+{
+  "packages": {
+    "gcpack": {
+      "repo": "https://github.com/gitcrate/gcpack.git",
+      "version": "1.0.0"
+    },
+    "env": {
+      "repo": "npm:dotenv",
+      "version": "16.6.0"
+    },
+    "discord": {
+      "repo": "npm:discord.js",
+      "version": "14.21.0"
+    },
+    "update": {
+      "repo": "npm:gitcrate",
+      "version": "1.0.0"
+    },
+    "kidnet.js": {
+      "repo": "npm:kidnet.js",
+      "version": "0.1.0"
+    },
+    "kn.js": {
+      "repo": "npm:kn.jsc",
+      "version": "1.0.0"
+    },
+    "tetdc": {
+      "repo": "npm:tetdc",
+      "version": "1.0.0"
+    },
+    "jp": {
+      "repo": "npm:jplus-support",
+      "version": "0.0.3"
+    },
+    "hacker": {
+      "repo": "npm:pretend-hacker",
+      "version": "1.0.0"
+    },
+    "cli1": {
+      "repo": "npm:@stetupdev/cli1",
+      "version": "1.1.0"
+    },
+    "cli": {
+      "repo": "npm:@gitcrate/cli",
+      "version": "1.0.0"
+    },
+    "roastlab": {
+      "repo": "npm:roastlab",
+      "version": "1.0.0"
+    },
+    "npm": {
+      "repo": "npm:npm",
+      "version": "11.4.2"
+    },
+    "lodash": {
+      "repo": "npm:lodash",
+      "version": "4.17.21"
+    },
+    "axios": {
+      "repo": "npm:axios",
+      "version": "1.4.0"
+    },
+    "express": {
+      "repo": "npm:express",
+      "version": "4.18.2"
+    },
+    "moment": {
+      "repo": "npm:moment",
+      "version": "2.29.4"
+    },
+    "chalk": {
+      "repo": "npm:chalk",
+      "version": "5.3.0"
+    },
+    "cors": {
+      "repo": "npm:cors",
+      "version": "2.8.5"
+    },
+    "winston": {
+      "repo": "npm:winston",
+      "version": "3.8.2"
+    },
+    "joi": {
+      "repo": "npm:joi",
+      "version": "17.9.2"
+    },
+    "typescript": {
+      "repo": "npm:typescript",
+      "version": "5.1.6"
+    }
+  }
+}
