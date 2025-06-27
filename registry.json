@@ -1,7 +1,7 @@
 {
   "packages": {
     "gcpack": {
-      "repo": "https://github.com/gitcrate/gcpack.git",
+      "repo": "https://github.com/stetupyt/cogp/gcpack.git",
       "version": "1.0.0"
     },
     "env": {
@@ -13,7 +13,7 @@
       "version": "14.21.0"
     },
     "update": {
-      "repo": "npm:gitcrate",
+      "repo": "npm:@gitcrate/gitcrate",
       "version": "1.0.0"
     },
     "kidnet.js": {
@@ -87,6 +87,9 @@
     "typescript": {
       "repo": "npm:typescript",
       "version": "5.1.6"
-    }
+    },
+    "vsce": {
+      "repo": "npm:@vscode/vsce",
+      "version": "3.6.0"
   }
 }
